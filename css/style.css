@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: linear-gradient(220.55deg, #DDE4FF 0%, #8DA2EE 100%);
+  min-height: 100vh;
+}
+
+.input__file {
+  margin: 0 auto;
+  padding: 2em;
+}
+.input__file .input__text {
+  margin: 1em 0;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+.input__file form {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0 auto;
+  width: 20%;
+}
+.input__file form input:first-child {
+  margin: 0;
+}
+.input__file form input:last-child {
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */
